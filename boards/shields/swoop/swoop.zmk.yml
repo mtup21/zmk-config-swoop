@@ -1,0 +1,12 @@
+file_format: "1"
+id: swoop
+name: Swoop
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - swoop_left
+  - swoop_right
