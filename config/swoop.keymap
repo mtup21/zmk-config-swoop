@@ -7,10 +7,10 @@
 
         base {
             bindings = <
-&kp Q  &kp W  &kp E       &kp R      &kp T      &kp Y      &kp U            &kp I       &kp O    &kp P
-&kp A  &kp S  &kp D       &kp F      &kp G      &kp H      &kp J            &kp K       &kp L    &kp SEMICOLON
-&kp Z  &kp X  &kp C       &kp V      &kp B      &kp N      &kp M            &kp COMMA   &kp DOT  &kp FSLH
-              &kp ESCAPE  &kp SPACE  &kp RET    &kp SPACE  &lt 1 BACKSPACE  &kp DELETE
+&kp Q  &kp W  &kp E       &kp R      &kp T      &kp Y      &kp U  &kp I       &kp O    &kp P
+&kp A  &kp S  &kp D       &kp F      &kp G      &kp H      &kp J  &kp K       &kp L    &kp SEMICOLON
+&kp Z  &kp X  &kp C       &kp V      &kp B      &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH
+              &kp ESCAPE  &kp SPACE  &kp RET    &kp SPACE  &mo 1  &kp DELETE
             >;
         };
 
@@ -29,15 +29,6 @@
 &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
 &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans
                 &trans  &trans  &trans    &trans  &trans    &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
